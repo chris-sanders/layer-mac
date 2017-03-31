@@ -1,0 +1,9 @@
+options:
+  interface:
+    type: string
+    default: ""
+    description: "The interface to change"
+  address:
+    type: string
+    default: ""
+    description: "The MAC address to set (XX:XX:XX:XX)"

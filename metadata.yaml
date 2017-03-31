@@ -1,0 +1,21 @@
+name: mac
+summary: Set the MAC address for an interface
+maintainer: Chris <sanders.chris@gmail.com>
+description: |
+  Set the MAC address for an interface
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+series:
+  - xenial
+#provides:
+#  provides-relation:
+#    interface: interface-name
+#requires:
+#  requires-relation:
+#    interface: interface-name
+#peers:
+#  peer-relation:
+#    interface: interface-name

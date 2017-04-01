@@ -2,8 +2,8 @@ options:
   interface:
     type: string
     default: ""
-    description: "The interface to change"
+    description: "Interface to set MAC address on (ex: eth0)"
   address:
     type: string
     default: ""
-    description: "The MAC address to set (XX:XX:XX:XX)"
+    description: "The MAC address to set (ex: XX:XX:XX:XX)"
